@@ -1,0 +1,8 @@
+Q: What are your working hours?
+A: Our company works from 9 AM to 6 PM, Monday to Saturday.
+
+Q: Do you provide refunds?
+A: Yes, we provide refunds within 30 days of purchase with a valid reason.
+
+Q: How can I contact customer support?
+A: You can email us at support@company.com or call +91-9876543210.
