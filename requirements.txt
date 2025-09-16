@@ -3,3 +3,5 @@ streamlit-chat
 streamlit-lottie
 google-generativeai
 requests
+python-dotenv
+
