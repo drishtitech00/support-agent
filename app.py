@@ -8,7 +8,8 @@ import requests
 # -----------------------------
 # Gemini API Setup
 # -----------------------------
-os.environ["GEMINI_API_KEY"] = "AIzaSyB2X9dMJODm57MXXqCdnAxspmHbzsNT9Sk"
+from dotenv import load_dotenv
+load_dotenv()  # loads GEMINI_API_KEY from .env file
 genai.configure(api_key=os.environ["GEMINI_API_KEY"])
 model = genai.GenerativeModel("gemini-1.5-flash")
 
@@ -99,3 +100,4 @@ for i, (sender, msg) in enumerate(st.session_state.history):
         message(msg, is_user=True, key=f"{i}_user")
     else:
         message(msg, is_user=False, key=f"{i}_agent")
+
